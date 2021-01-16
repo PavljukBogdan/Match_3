@@ -1,0 +1,21 @@
+{
+  "name": "match-3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "PBV",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-loader": "^6.2.2",
+    "typescript": "^4.1.3",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
+
