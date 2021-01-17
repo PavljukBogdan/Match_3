@@ -1,7 +1,6 @@
 {
   "name": "match-3",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development --open",
@@ -11,11 +10,21 @@
   "author": "PBV",
   "license": "ISC",
   "devDependencies": {
+    "copy-webpack-plugin": "^7.0.0",
     "ts-loader": "^6.2.2",
     "typescript": "^4.1.3",
     "webpack": "^4.42.1",
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.11.2"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PavljukBogdan/Match_3.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PavljukBogdan/Match_3/issues"
+  },
+  "homepage": "https://github.com/PavljukBogdan/Match_3#readme",
+  "description": ""
 }
-

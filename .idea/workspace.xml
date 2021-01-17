@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c60c3d9e-84bf-4a53-ad1c-0fac3087c065" name="Default Changelist" comment="" />
+    <list default="true" id="c60c3d9e-84bf-4a53-ad1c-0fac3087c065" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/view.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/view.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +31,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1nAhsmZvLjev135hHXZYQUOyoda" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -23,10 +43,16 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Arcanoid" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
-    <property name="ts.external.directory.path" value="E:\Typescript project\Match-3\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="E:\Typescript project\Match_3\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="npm.build">
@@ -67,45 +93,75 @@
       <updated>1610839012679</updated>
       <workItem from="1610839014368" duration="910000" />
       <workItem from="1610840061886" duration="1257000" />
+      <workItem from="1610841358285" duration="326000" />
+      <workItem from="1610872914195" duration="4571000" />
     </task>
+    <task id="LOCAL-00001" summary="custom webpack and pixi">
+      <created>1610841466830</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1610841466830</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="custom webpack and pixi" />
+    <option name="LAST_COMMIT_MESSAGE" value="custom webpack and pixi" />
   </component>
   <component name="WindowStateProjectService">
     <state x="93" y="100" width="1534" height="1207" key="DiffContextDialog" timestamp="1610840967503">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="93" y="100" width="1534" height="1207" key="DiffContextDialog/0.0.3440.1400@0.0.3440.1400" timestamp="1610840967503" />
-    <state x="640" y="458" key="FileChooserDialogImpl" timestamp="1610841310306">
+    <state x="640" y="458" key="FileChooserDialogImpl" timestamp="1610874251453">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state x="640" y="458" key="FileChooserDialogImpl/0.0.3440.1400@0.0.3440.1400" timestamp="1610841310306" />
+    <state x="640" y="458" key="FileChooserDialogImpl/0.0.3440.1400@0.0.3440.1400" timestamp="1610874251453" />
     <state x="738" y="601" width="587" height="205" key="Github.ShareDialog" timestamp="1610841273790">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="738" y="601" width="587" height="205" key="Github.ShareDialog/0.0.3440.1400@0.0.3440.1400" timestamp="1610841273790" />
-    <state width="847" height="399" key="GridCell.Tab.0.bottom" timestamp="1610841322460">
+    <state width="1696" height="398" key="GridCell.Tab.0.bottom" timestamp="1610877430143">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="847" height="399" key="GridCell.Tab.0.bottom/0.0.3440.1400@0.0.3440.1400" timestamp="1610841322460" />
-    <state width="847" height="399" key="GridCell.Tab.0.center" timestamp="1610841322460">
+    <state width="1696" height="398" key="GridCell.Tab.0.bottom/0.0.3440.1400@0.0.3440.1400" timestamp="1610877430143" />
+    <state width="1696" height="398" key="GridCell.Tab.0.center" timestamp="1610877430143">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="847" height="399" key="GridCell.Tab.0.center/0.0.3440.1400@0.0.3440.1400" timestamp="1610841322460" />
-    <state width="847" height="399" key="GridCell.Tab.0.left" timestamp="1610841322459">
+    <state width="1696" height="398" key="GridCell.Tab.0.center/0.0.3440.1400@0.0.3440.1400" timestamp="1610877430143" />
+    <state width="1696" height="398" key="GridCell.Tab.0.left" timestamp="1610877430143">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="847" height="399" key="GridCell.Tab.0.left/0.0.3440.1400@0.0.3440.1400" timestamp="1610841322459" />
-    <state width="847" height="399" key="GridCell.Tab.0.right" timestamp="1610841322460">
+    <state width="1696" height="398" key="GridCell.Tab.0.left/0.0.3440.1400@0.0.3440.1400" timestamp="1610877430143" />
+    <state width="1696" height="398" key="GridCell.Tab.0.right" timestamp="1610877430143">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="847" height="399" key="GridCell.Tab.0.right/0.0.3440.1400@0.0.3440.1400" timestamp="1610841322460" />
+    <state width="1696" height="398" key="GridCell.Tab.0.right/0.0.3440.1400@0.0.3440.1400" timestamp="1610877430143" />
     <state x="1221" y="344" key="SettingsEditor" timestamp="1610840619054">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="1221" y="344" key="SettingsEditor/0.0.3440.1400@0.0.3440.1400" timestamp="1610840619054" />
+    <state x="459" y="432" key="Vcs.Push.Dialog.v2" timestamp="1610841665745">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="459" y="432" key="Vcs.Push.Dialog.v2/0.0.3440.1400@0.0.3440.1400" timestamp="1610841665745" />
     <state x="93" y="100" width="1534" height="1207" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1610841280149">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>

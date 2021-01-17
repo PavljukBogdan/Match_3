@@ -11,4 +11,4 @@ declare global {
 const rooot = document.querySelector('#root');
 
 const model = new Model();
-const view = new View(rooot,550,660, model);
+const view = new View(rooot,940,720, model);
