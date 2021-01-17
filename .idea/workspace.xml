@@ -10,14 +10,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c60c3d9e-84bf-4a53-ad1c-0fac3087c065" name="Default Changelist" comment="">
+    <list default="true" id="c60c3d9e-84bf-4a53-ad1c-0fac3087c065" name="Default Changelist" comment="add CopyWebpackPlugin">
+      <change afterPath="$PROJECT_DIR$/src/modules/controller.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/frame.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/GameTypes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/GameTypes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/model.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/modules/view.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/view.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +56,12 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="ts.external.directory.path" value="E:\Typescript project\Match_3\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Typescript project\Match_3\assets" />
+      <recent name="E:\Typescript project\Match_3\src\modules" />
+    </key>
   </component>
   <component name="RunManager" selected="npm.build">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -94,7 +102,7 @@
       <workItem from="1610839014368" duration="910000" />
       <workItem from="1610840061886" duration="1257000" />
       <workItem from="1610841358285" duration="326000" />
-      <workItem from="1610872914195" duration="4571000" />
+      <workItem from="1610872914195" duration="35266000" />
     </task>
     <task id="LOCAL-00001" summary="custom webpack and pixi">
       <created>1610841466830</created>
@@ -103,7 +111,21 @@
       <option name="project" value="LOCAL" />
       <updated>1610841466830</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add CopyWebpackPlugin">
+      <created>1610881133876</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1610881133876</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add CopyWebpackPlugin">
+      <created>1610881144076</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1610881144076</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,7 +145,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="custom webpack and pixi" />
-    <option name="LAST_COMMIT_MESSAGE" value="custom webpack and pixi" />
+    <MESSAGE value="add CopyWebpackPlugin" />
+    <option name="LAST_COMMIT_MESSAGE" value="add CopyWebpackPlugin" />
   </component>
   <component name="WindowStateProjectService">
     <state x="93" y="100" width="1534" height="1207" key="DiffContextDialog" timestamp="1610840967503">
@@ -138,30 +161,30 @@
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="738" y="601" width="587" height="205" key="Github.ShareDialog/0.0.3440.1400@0.0.3440.1400" timestamp="1610841273790" />
-    <state width="1696" height="398" key="GridCell.Tab.0.bottom" timestamp="1610877430143">
+    <state width="1716" height="398" key="GridCell.Tab.0.bottom" timestamp="1610920286450">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1696" height="398" key="GridCell.Tab.0.bottom/0.0.3440.1400@0.0.3440.1400" timestamp="1610877430143" />
-    <state width="1696" height="398" key="GridCell.Tab.0.center" timestamp="1610877430143">
+    <state width="1716" height="398" key="GridCell.Tab.0.bottom/0.0.3440.1400@0.0.3440.1400" timestamp="1610920286450" />
+    <state width="1716" height="398" key="GridCell.Tab.0.center" timestamp="1610920286450">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1696" height="398" key="GridCell.Tab.0.center/0.0.3440.1400@0.0.3440.1400" timestamp="1610877430143" />
-    <state width="1696" height="398" key="GridCell.Tab.0.left" timestamp="1610877430143">
+    <state width="1716" height="398" key="GridCell.Tab.0.center/0.0.3440.1400@0.0.3440.1400" timestamp="1610920286450" />
+    <state width="1716" height="398" key="GridCell.Tab.0.left" timestamp="1610920286450">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1696" height="398" key="GridCell.Tab.0.left/0.0.3440.1400@0.0.3440.1400" timestamp="1610877430143" />
-    <state width="1696" height="398" key="GridCell.Tab.0.right" timestamp="1610877430143">
+    <state width="1716" height="398" key="GridCell.Tab.0.left/0.0.3440.1400@0.0.3440.1400" timestamp="1610920286450" />
+    <state width="1716" height="398" key="GridCell.Tab.0.right" timestamp="1610920286450">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1696" height="398" key="GridCell.Tab.0.right/0.0.3440.1400@0.0.3440.1400" timestamp="1610877430143" />
+    <state width="1716" height="398" key="GridCell.Tab.0.right/0.0.3440.1400@0.0.3440.1400" timestamp="1610920286450" />
     <state x="1221" y="344" key="SettingsEditor" timestamp="1610840619054">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="1221" y="344" key="SettingsEditor/0.0.3440.1400@0.0.3440.1400" timestamp="1610840619054" />
-    <state x="459" y="432" key="Vcs.Push.Dialog.v2" timestamp="1610841665745">
+    <state x="459" y="432" key="Vcs.Push.Dialog.v2" timestamp="1610881149998">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state x="459" y="432" key="Vcs.Push.Dialog.v2/0.0.3440.1400@0.0.3440.1400" timestamp="1610841665745" />
+    <state x="459" y="432" key="Vcs.Push.Dialog.v2/0.0.3440.1400@0.0.3440.1400" timestamp="1610881149998" />
     <state x="93" y="100" width="1534" height="1207" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1610841280149">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
