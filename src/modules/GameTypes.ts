@@ -1,4 +1,5 @@
 export type TGameObject = {
+    numberBlock: number;
     typeBlock: number;
     x: number;
     y: number;
@@ -7,10 +8,11 @@ export type TGameObject = {
 
 export type TGameStateModel = {
     playField:TGameObject[][];
+    removeBlock: number[];
 }
 
 export type TGameStateView = {
-    gameBlockSprite: PIXI.Sprite[][];
+    gameBlockSprite: PIXI.Sprite[];
     infoBlock: TInfoBlock[];
 }
 
@@ -19,3 +21,4 @@ export type TInfoBlock = {
     x: number;
     y: number;
 }
+
