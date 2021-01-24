@@ -16,6 +16,6 @@ const model = new Model();
 const view = new View(rooot,940,720, model);
 const controller = new Controller(model,view);
 
-window.view = view;
 window.model = model;
+window.view = view;
 window.controller = controller;
