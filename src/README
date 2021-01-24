@@ -1,0 +1,7 @@
+ A simple Match_3 game using Pixi.js, ES6 (Babel) and browserify.
+
+#How to set up
+```
+npm install
+npm run webpack-dev-server
+```

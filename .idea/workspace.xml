@@ -11,14 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c60c3d9e-84bf-4a53-ad1c-0fac3087c065" name="Default Changelist" comment="big refactor">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/bundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/GameTypes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/GameTypes.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/controller.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/model.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/view.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/view.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/README" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tween.js/.github/workflows/tests.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tween.js/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tween.js/.npmignore" beforeDir="false" />
@@ -129,7 +122,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Tetris" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -196,7 +189,7 @@
       <workItem from="1611351826389" duration="67000" />
       <workItem from="1611427198583" duration="18862000" />
       <workItem from="1611475070980" duration="24172000" />
-      <workItem from="1611513956423" duration="1000000" />
+      <workItem from="1611513956423" duration="1467000" />
     </task>
     <task id="LOCAL-00001" summary="custom webpack and pixi">
       <created>1610841466830</created>
@@ -261,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611504226250</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="refactoring all">
+      <created>1611515120789</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1611515120789</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,37 +287,42 @@
     <MESSAGE value="big refactor" />
     <MESSAGE value="refactor view, controller, model. Add gameEnums" />
     <MESSAGE value="add absolutePath" />
-    <option name="LAST_COMMIT_MESSAGE" value="add absolutePath" />
+    <MESSAGE value="refactoring all" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring all" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1482" y="501" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1611515353113">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="1482" y="501" key="#com.intellij.fileTypes.FileTypeChooser/0.0.3440.1400@0.0.3440.1400" timestamp="1611515353113" />
     <state x="93" y="100" width="1534" height="1207" key="DiffContextDialog" timestamp="1610840967503">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="93" y="100" width="1534" height="1207" key="DiffContextDialog/0.0.3440.1400@0.0.3440.1400" timestamp="1610840967503" />
-    <state x="640" y="458" key="FileChooserDialogImpl" timestamp="1611503687485">
+    <state x="640" y="458" key="FileChooserDialogImpl" timestamp="1611515361603">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state x="640" y="458" key="FileChooserDialogImpl/0.0.3440.1400@0.0.3440.1400" timestamp="1611503687485" />
+    <state x="640" y="458" key="FileChooserDialogImpl/0.0.3440.1400@0.0.3440.1400" timestamp="1611515361603" />
     <state x="738" y="601" width="587" height="205" key="Github.ShareDialog" timestamp="1610841273790">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="738" y="601" width="587" height="205" key="Github.ShareDialog/0.0.3440.1400@0.0.3440.1400" timestamp="1610841273790" />
-    <state width="1873" height="392" key="GridCell.Tab.0.bottom" timestamp="1611514749040">
+    <state width="3419" height="392" key="GridCell.Tab.0.bottom" timestamp="1611515054274">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1873" height="392" key="GridCell.Tab.0.bottom/0.0.3440.1400@0.0.3440.1400" timestamp="1611514749040" />
-    <state width="1873" height="392" key="GridCell.Tab.0.center" timestamp="1611514749040">
+    <state width="3419" height="392" key="GridCell.Tab.0.bottom/0.0.3440.1400@0.0.3440.1400" timestamp="1611515054274" />
+    <state width="3419" height="392" key="GridCell.Tab.0.center" timestamp="1611515054274">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1873" height="392" key="GridCell.Tab.0.center/0.0.3440.1400@0.0.3440.1400" timestamp="1611514749040" />
-    <state width="1873" height="392" key="GridCell.Tab.0.left" timestamp="1611514749040">
+    <state width="3419" height="392" key="GridCell.Tab.0.center/0.0.3440.1400@0.0.3440.1400" timestamp="1611515054274" />
+    <state width="3419" height="392" key="GridCell.Tab.0.left" timestamp="1611515054274">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1873" height="392" key="GridCell.Tab.0.left/0.0.3440.1400@0.0.3440.1400" timestamp="1611514749040" />
-    <state width="1873" height="392" key="GridCell.Tab.0.right" timestamp="1611514749040">
+    <state width="3419" height="392" key="GridCell.Tab.0.left/0.0.3440.1400@0.0.3440.1400" timestamp="1611515054274" />
+    <state width="3419" height="392" key="GridCell.Tab.0.right" timestamp="1611515054274">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1873" height="392" key="GridCell.Tab.0.right/0.0.3440.1400@0.0.3440.1400" timestamp="1611514749040" />
+    <state width="3419" height="392" key="GridCell.Tab.0.right/0.0.3440.1400@0.0.3440.1400" timestamp="1611515054274" />
     <state width="1710" height="488" key="GridCell.Tab.1.bottom" timestamp="1611513900010">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
@@ -370,10 +375,10 @@
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="1221" y="344" key="SettingsEditor/0.0.3440.1400@0.0.3440.1400" timestamp="1610840619054" />
-    <state x="459" y="432" key="Vcs.Push.Dialog.v2" timestamp="1611504228923">
+    <state x="459" y="432" key="Vcs.Push.Dialog.v2" timestamp="1611515130563">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state x="459" y="432" key="Vcs.Push.Dialog.v2/0.0.3440.1400@0.0.3440.1400" timestamp="1611504228923" />
+    <state x="459" y="432" key="Vcs.Push.Dialog.v2/0.0.3440.1400@0.0.3440.1400" timestamp="1611515130563" />
     <state x="93" y="100" width="1534" height="1207" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1610841280149">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
