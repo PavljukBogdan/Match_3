@@ -22,6 +22,7 @@ export default class View {
     private _taskLevelSprite: PIXI.Sprite;
     private _textScore: PIXI.Text;
     private _frameBlockSprite: PIXI.Sprite; //рамка
+    private _host: string = './';
 
     constructor(element: Element | null, width: number, height: number, model: Model) {
         this._element = element;
@@ -50,16 +51,15 @@ export default class View {
         return {
             gameBlockSprite: this._gameBlockSprite,
             infoBlock: this._infoBlock,
+            HEIGHT_GAME_BLOCK: this.HEIGHT_GAME_BLOCK,
+            WIDTH_GAME_BLOCK: this.WIDTH_GAME_BLOCK,
         }
     }
     //------------------- createSprite ---------------------//
     //створюємо беграунд
     private createBackground(): void {
-
-        let path = require('path');
-        let absolutePath = path.resolve('/assets/background.jpg')
-        this._background = this.createElementGame(absolutePath,0,0,720,940,1,'background');
-        this._frameBlockSprite = this.createElementGame('./assets/frameBlock.png',100,520,66,66,1,'frameBlock');
+        this._background = this.createElementGame(this._host + 'assets/background.jpg',0,0,720,940,1,'background');
+        this._frameBlockSprite = this.createElementGame(this._host + 'assets/frameBlock.png',100,520,this.HEIGHT_GAME_BLOCK,this.WIDTH_GAME_BLOCK,1,'frameBlock');
     }
     //створюємо завдання рівня
     private createTaskLevel(): void {
@@ -68,7 +68,7 @@ export default class View {
         this._taskLevelSprite = this.createGameBlock(typeBlock,100,520,levelBlock);
         this._taskLevelSprite.alpha = 1;
         this._taskLevelSprite.interactive = false;
-        this._frame = this.createElementGame('./assets/frame.png',0,0,720,940,1,'frame');
+        this._frame = this.createElementGame(this._host + 'assets/frame.png',0,0,720,940,1,'frame');
     }
     //створюємо текст рівня
     private createTextScore(): void {
@@ -156,19 +156,19 @@ export default class View {
         let block: PIXI.Sprite = new PIXI.Sprite;
         switch (nameBlock) {
             case 'Blue':
-                block = this.createElementGame('./assets/Blue.jpg',x,y,height,width, alpha,nameBlock + name);
+                block = this.createElementGame(this._host  + 'assets/Blue.jpg',x,y,height,width, alpha,nameBlock + name);
                 break;
             case 'Green':
-                block = this.createElementGame('./assets/Green.jpg',x,y,height,width, alpha,nameBlock + name);
+                block = this.createElementGame(this._host + 'assets/Green.jpg',x,y,height,width, alpha,nameBlock + name);
                 break;
             case 'Red':
-                block = this.createElementGame('./assets/Red.jpg',x,y,height,width, alpha,nameBlock + name);
+                block = this.createElementGame(this._host  + 'assets/Red.jpg',x,y,height,width, alpha,nameBlock + name);
                 break;
             case 'White':
-                block = this.createElementGame('./assets/White.jpg',x,y,height,width, alpha,nameBlock + name);
+                block = this.createElementGame(this._host + 'assets/White.jpg',x,y,height,width, alpha,nameBlock + name);
                 break;
             case 'Yellow':
-                block = this.createElementGame('./assets/Yellow.jpg',x,y,height,width, alpha,nameBlock + name);
+                block = this.createElementGame(this._host + 'assets/Yellow.jpg',x,y,height,width, alpha,nameBlock + name);
                 break;
         }
         return block;
@@ -181,6 +181,7 @@ export default class View {
     }
     //видаляємо з масиву спрайти
     private removeSprite({removeBlockNumber}: TGameStateModel): void {
+        console.log(this._gameBlockSprite);
         for (let i = 0; i < this._gameBlockSprite.length; i++) {
             let nameSprite: string[] = this._gameBlockSprite[i].name.split('_');
             for (let j = 0; j < removeBlockNumber.length; j++) { //номери співпадають, видаляємо спрайт
@@ -189,6 +190,7 @@ export default class View {
                 }
             }
         }
+        console.log(this._gameBlockSprite);
     }
     //------------------- renderSprite ---------------------//
     //малюємо || оновлюємо ігровий екран

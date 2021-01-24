@@ -12,8 +12,98 @@
   <component name="ChangeListManager">
     <list default="true" id="c60c3d9e-84bf-4a53-ad1c-0fac3087c065" name="Default Changelist" comment="big refactor">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/GameTypes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/GameTypes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/model.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/modules/view.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/view.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tween.js/.github/workflows/tests.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tween.js/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tween.js/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tween.js/.prettierignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tween.js/.prettierrc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tween.js/CODE_OF_CONDUCT.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tween.js/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tween.js/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tween.js/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tween.js/README_zh-CN.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tween.js/assets/examples/00_hello_world.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tween.js/assets/examples/01_bars.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tween.js/assets/examples/02_black_and_red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tween.js/assets/examples/03_graphs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tween.js/assets/examples/04_simplest.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tween.js/assets/examples/05_spline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tween.js/assets/examples/06_video_and_time.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tween.js/assets/examples/07_dynamic_to.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tween.js/assets/examples/08_repeat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tween.js/assets/examples/09_relative.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tween.js/assets/examples/10_yoyo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tween.js/assets/examples/11_stop_all_chained_tweens.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tween.js/assets/projects/00_linechart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tween.js/assets/projects/01_wilderness.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tween.js/assets/projects/02_floweroscope.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tween.js/assets/projects/03_androidify.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tween.js/assets/projects/04_webgl_globe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tween.js/assets/projects/05_rome.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tween.js/assets/projects/06_minesweeper3d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tween.js/assets/projects/07_macchina.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tween.js/assets/projects/08_web_lab.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tween.js/assets/projects/09_moma.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tween.js/assets/projects/10_aframe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tween.js/assets/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tween.js/dist/tween.amd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tween.js/dist/tween.cjs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tween.js/dist/tween.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tween.js/dist/tween.esm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tween.js/dist/tween.umd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tween.js/docs/contributor_guide.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tween.js/docs/contributor_guide_zh-CN.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tween.js/docs/imgs/pull-request-checks-failing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tween.js/docs/imgs/pull-request-checks.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tween.js/docs/user_guide.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tween.js/docs/user_guide_zh-CN.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tween.js/examples/00_hello_world.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tween.js/examples/01_bars.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tween.js/examples/02_black_and_red.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tween.js/examples/03_graphs.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tween.js/examples/04_simplest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tween.js/examples/05_video_and_time.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tween.js/examples/06_array_interpolation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tween.js/examples/07_dynamic_to.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tween.js/examples/08_repeat.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tween.js/examples/09_relative_values.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tween.js/examples/10_yoyo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tween.js/examples/11_stop_all_chained_tweens.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tween.js/examples/12_graphs_custom_functions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tween.js/examples/13_relative_start_time.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tween.js/examples/14_pause_tween.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tween.js/examples/15_complex_properties.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tween.js/examples/16_animate_an_array_of_values.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tween.js/examples/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tween.js/examples/js/RequestAnimationFrame.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tween.js/examples/js/createGraph.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tween.js/examples/js/stats.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tween.js/examples/video/sintel.webm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tween.js/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tween.js/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tween.js/rollup.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tween.js/scripts/write-version.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tween.js/src/Easing.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tween.js/src/Group.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tween.js/src/Index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tween.js/src/Interpolation.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tween.js/src/Now.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tween.js/src/Sequence.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tween.js/src/Tween.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tween.js/src/Version.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tween.js/src/mainGroup.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tween.js/src/tests.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tween.js/test/unit/nodeunit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tween.js/test/unit/nodeunit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tween.js/test/unit/nodeunitheadless.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tween.js/tsconfig.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +129,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Tetris" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -105,7 +195,8 @@
       <workItem from="1611248005136" duration="15989000" />
       <workItem from="1611351826389" duration="67000" />
       <workItem from="1611427198583" duration="18862000" />
-      <workItem from="1611475070980" duration="19921000" />
+      <workItem from="1611475070980" duration="24172000" />
+      <workItem from="1611513956423" duration="1000000" />
     </task>
     <task id="LOCAL-00001" summary="custom webpack and pixi">
       <created>1610841466830</created>
@@ -163,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611503358707</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add absolutePath">
+      <created>1611504226250</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1611504226250</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,7 +286,8 @@
     <MESSAGE value="add Sprite" />
     <MESSAGE value="big refactor" />
     <MESSAGE value="refactor view, controller, model. Add gameEnums" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor view, controller, model. Add gameEnums" />
+    <MESSAGE value="add absolutePath" />
+    <option name="LAST_COMMIT_MESSAGE" value="add absolutePath" />
   </component>
   <component name="WindowStateProjectService">
     <state x="93" y="100" width="1534" height="1207" key="DiffContextDialog" timestamp="1610840967503">
@@ -203,78 +302,78 @@
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="738" y="601" width="587" height="205" key="Github.ShareDialog/0.0.3440.1400@0.0.3440.1400" timestamp="1610841273790" />
-    <state width="1710" height="392" key="GridCell.Tab.0.bottom" timestamp="1611504024140">
+    <state width="1873" height="392" key="GridCell.Tab.0.bottom" timestamp="1611514749040">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1710" height="392" key="GridCell.Tab.0.bottom/0.0.3440.1400@0.0.3440.1400" timestamp="1611504024140" />
-    <state width="1710" height="392" key="GridCell.Tab.0.center" timestamp="1611504024140">
+    <state width="1873" height="392" key="GridCell.Tab.0.bottom/0.0.3440.1400@0.0.3440.1400" timestamp="1611514749040" />
+    <state width="1873" height="392" key="GridCell.Tab.0.center" timestamp="1611514749040">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1710" height="392" key="GridCell.Tab.0.center/0.0.3440.1400@0.0.3440.1400" timestamp="1611504024140" />
-    <state width="1710" height="392" key="GridCell.Tab.0.left" timestamp="1611504024140">
+    <state width="1873" height="392" key="GridCell.Tab.0.center/0.0.3440.1400@0.0.3440.1400" timestamp="1611514749040" />
+    <state width="1873" height="392" key="GridCell.Tab.0.left" timestamp="1611514749040">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1710" height="392" key="GridCell.Tab.0.left/0.0.3440.1400@0.0.3440.1400" timestamp="1611504024140" />
-    <state width="1710" height="392" key="GridCell.Tab.0.right" timestamp="1611504024140">
+    <state width="1873" height="392" key="GridCell.Tab.0.left/0.0.3440.1400@0.0.3440.1400" timestamp="1611514749040" />
+    <state width="1873" height="392" key="GridCell.Tab.0.right" timestamp="1611514749040">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1710" height="392" key="GridCell.Tab.0.right/0.0.3440.1400@0.0.3440.1400" timestamp="1611504024140" />
-    <state width="1710" height="488" key="GridCell.Tab.1.bottom" timestamp="1611482754308">
+    <state width="1873" height="392" key="GridCell.Tab.0.right/0.0.3440.1400@0.0.3440.1400" timestamp="1611514749040" />
+    <state width="1710" height="488" key="GridCell.Tab.1.bottom" timestamp="1611513900010">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1710" height="488" key="GridCell.Tab.1.bottom/0.0.3440.1400@0.0.3440.1400" timestamp="1611482754308" />
-    <state width="1710" height="488" key="GridCell.Tab.1.center" timestamp="1611482754308">
+    <state width="1710" height="488" key="GridCell.Tab.1.bottom/0.0.3440.1400@0.0.3440.1400" timestamp="1611513900010" />
+    <state width="1710" height="488" key="GridCell.Tab.1.center" timestamp="1611513900010">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1710" height="488" key="GridCell.Tab.1.center/0.0.3440.1400@0.0.3440.1400" timestamp="1611482754308" />
-    <state width="1710" height="488" key="GridCell.Tab.1.left" timestamp="1611482754308">
+    <state width="1710" height="488" key="GridCell.Tab.1.center/0.0.3440.1400@0.0.3440.1400" timestamp="1611513900010" />
+    <state width="1710" height="488" key="GridCell.Tab.1.left" timestamp="1611513900010">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1710" height="488" key="GridCell.Tab.1.left/0.0.3440.1400@0.0.3440.1400" timestamp="1611482754308" />
-    <state width="1710" height="488" key="GridCell.Tab.1.right" timestamp="1611482754308">
+    <state width="1710" height="488" key="GridCell.Tab.1.left/0.0.3440.1400@0.0.3440.1400" timestamp="1611513900010" />
+    <state width="1710" height="488" key="GridCell.Tab.1.right" timestamp="1611513900010">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1710" height="488" key="GridCell.Tab.1.right/0.0.3440.1400@0.0.3440.1400" timestamp="1611482754308" />
-    <state width="1710" height="488" key="GridCell.Tab.2.bottom" timestamp="1611482754308">
+    <state width="1710" height="488" key="GridCell.Tab.1.right/0.0.3440.1400@0.0.3440.1400" timestamp="1611513900010" />
+    <state width="1710" height="488" key="GridCell.Tab.2.bottom" timestamp="1611513900011">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1710" height="488" key="GridCell.Tab.2.bottom/0.0.3440.1400@0.0.3440.1400" timestamp="1611482754308" />
-    <state width="1710" height="488" key="GridCell.Tab.2.center" timestamp="1611482754308">
+    <state width="1710" height="488" key="GridCell.Tab.2.bottom/0.0.3440.1400@0.0.3440.1400" timestamp="1611513900011" />
+    <state width="1710" height="488" key="GridCell.Tab.2.center" timestamp="1611513900011">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1710" height="488" key="GridCell.Tab.2.center/0.0.3440.1400@0.0.3440.1400" timestamp="1611482754308" />
-    <state width="1710" height="488" key="GridCell.Tab.2.left" timestamp="1611482754308">
+    <state width="1710" height="488" key="GridCell.Tab.2.center/0.0.3440.1400@0.0.3440.1400" timestamp="1611513900011" />
+    <state width="1710" height="488" key="GridCell.Tab.2.left" timestamp="1611513900011">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1710" height="488" key="GridCell.Tab.2.left/0.0.3440.1400@0.0.3440.1400" timestamp="1611482754308" />
-    <state width="1710" height="488" key="GridCell.Tab.2.right" timestamp="1611482754308">
+    <state width="1710" height="488" key="GridCell.Tab.2.left/0.0.3440.1400@0.0.3440.1400" timestamp="1611513900011" />
+    <state width="1710" height="488" key="GridCell.Tab.2.right" timestamp="1611513900011">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1710" height="488" key="GridCell.Tab.2.right/0.0.3440.1400@0.0.3440.1400" timestamp="1611482754308" />
-    <state width="1710" height="488" key="GridCell.Tab.3.bottom" timestamp="1611482754308">
+    <state width="1710" height="488" key="GridCell.Tab.2.right/0.0.3440.1400@0.0.3440.1400" timestamp="1611513900011" />
+    <state width="1710" height="488" key="GridCell.Tab.3.bottom" timestamp="1611513900011">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1710" height="488" key="GridCell.Tab.3.bottom/0.0.3440.1400@0.0.3440.1400" timestamp="1611482754308" />
-    <state width="1710" height="488" key="GridCell.Tab.3.center" timestamp="1611482754308">
+    <state width="1710" height="488" key="GridCell.Tab.3.bottom/0.0.3440.1400@0.0.3440.1400" timestamp="1611513900011" />
+    <state width="1710" height="488" key="GridCell.Tab.3.center" timestamp="1611513900011">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1710" height="488" key="GridCell.Tab.3.center/0.0.3440.1400@0.0.3440.1400" timestamp="1611482754308" />
-    <state width="1710" height="488" key="GridCell.Tab.3.left" timestamp="1611482754308">
+    <state width="1710" height="488" key="GridCell.Tab.3.center/0.0.3440.1400@0.0.3440.1400" timestamp="1611513900011" />
+    <state width="1710" height="488" key="GridCell.Tab.3.left" timestamp="1611513900011">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1710" height="488" key="GridCell.Tab.3.left/0.0.3440.1400@0.0.3440.1400" timestamp="1611482754308" />
-    <state width="1710" height="488" key="GridCell.Tab.3.right" timestamp="1611482754308">
+    <state width="1710" height="488" key="GridCell.Tab.3.left/0.0.3440.1400@0.0.3440.1400" timestamp="1611513900011" />
+    <state width="1710" height="488" key="GridCell.Tab.3.right" timestamp="1611513900011">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1710" height="488" key="GridCell.Tab.3.right/0.0.3440.1400@0.0.3440.1400" timestamp="1611482754308" />
+    <state width="1710" height="488" key="GridCell.Tab.3.right/0.0.3440.1400@0.0.3440.1400" timestamp="1611513900011" />
     <state x="1221" y="344" key="SettingsEditor" timestamp="1610840619054">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="1221" y="344" key="SettingsEditor/0.0.3440.1400@0.0.3440.1400" timestamp="1610840619054" />
-    <state x="459" y="432" key="Vcs.Push.Dialog.v2" timestamp="1611503363706">
+    <state x="459" y="432" key="Vcs.Push.Dialog.v2" timestamp="1611504228923">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state x="459" y="432" key="Vcs.Push.Dialog.v2/0.0.3440.1400@0.0.3440.1400" timestamp="1611503363706" />
+    <state x="459" y="432" key="Vcs.Push.Dialog.v2/0.0.3440.1400@0.0.3440.1400" timestamp="1611504228923" />
     <state x="93" y="100" width="1534" height="1207" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1610841280149">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>

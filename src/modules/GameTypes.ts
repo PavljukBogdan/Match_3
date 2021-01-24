@@ -19,6 +19,8 @@ export type TGameStateModel = {
 export type TGameStateView = {
     gameBlockSprite: PIXI.Sprite[];
     infoBlock: TInfoBlock[];
+    WIDTH_GAME_BLOCK: number; //ширина ігрового блоку
+    HEIGHT_GAME_BLOCK: number; //висота ігрового блоку
 }
 
 export type TInfoBlock = {

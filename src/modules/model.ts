@@ -307,7 +307,6 @@ export default class Model {
             dellBlock.push(dB); //додаємо елемент в масив
             this._playField[coord.coordY[i]][coord.coordX[i]].numberBlock = 0; //затираємо його на полі
         }
-        console.log(dellBlock);
         return dellBlock; //овертаємо масив з номерами, що видалені
     }
     //перевірка рядків на співпадіння більше трьох обєктів

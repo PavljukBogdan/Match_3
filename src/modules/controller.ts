@@ -47,7 +47,8 @@ export default class Controller {
     //перевірка чи блоки сусідні
     private checkWhetherAdjacentBlocks(blockOne: TInfoBlock, blockTwo: TInfoBlock): boolean {
         if(blockOne.x == blockTwo.x || blockOne.y == blockTwo.y) {
-            if(Math.abs(blockOne.x - blockTwo.x) == 68 || Math.abs(blockOne.y - blockTwo.y) == 68) {
+            if(Math.abs(blockOne.x - blockTwo.x) == this._view.gameStateView().HEIGHT_GAME_BLOCK + 2 ||
+                Math.abs(blockOne.y - blockTwo.y) == this._view.gameStateView().WIDTH_GAME_BLOCK + 2) {
                 return true;
             }
         }
