@@ -111,7 +111,7 @@
       <workItem from="1611248005136" duration="15989000" />
       <workItem from="1611351826389" duration="67000" />
       <workItem from="1611427198583" duration="18862000" />
-      <workItem from="1611475070980" duration="18164000" />
+      <workItem from="1611475070980" duration="18605000" />
     </task>
     <task id="LOCAL-00001" summary="custom webpack and pixi">
       <created>1610841466830</created>
@@ -155,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611255207650</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="refactor view, controller, model. Add gameEnums">
+      <created>1611502718454</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1611502718454</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,7 +186,8 @@
     <MESSAGE value="add Controller and supplemented View and Model" />
     <MESSAGE value="add Sprite" />
     <MESSAGE value="big refactor" />
-    <option name="LAST_COMMIT_MESSAGE" value="big refactor" />
+    <MESSAGE value="refactor view, controller, model. Add gameEnums" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor view, controller, model. Add gameEnums" />
   </component>
   <component name="WindowStateProjectService">
     <state x="93" y="100" width="1534" height="1207" key="DiffContextDialog" timestamp="1610840967503">
@@ -194,22 +202,22 @@
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="738" y="601" width="587" height="205" key="Github.ShareDialog/0.0.3440.1400@0.0.3440.1400" timestamp="1610841273790" />
-    <state width="1710" height="392" key="GridCell.Tab.0.bottom" timestamp="1611502157312">
+    <state width="1710" height="392" key="GridCell.Tab.0.bottom" timestamp="1611502570716">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1710" height="392" key="GridCell.Tab.0.bottom/0.0.3440.1400@0.0.3440.1400" timestamp="1611502157312" />
-    <state width="1710" height="392" key="GridCell.Tab.0.center" timestamp="1611502157311">
+    <state width="1710" height="392" key="GridCell.Tab.0.bottom/0.0.3440.1400@0.0.3440.1400" timestamp="1611502570716" />
+    <state width="1710" height="392" key="GridCell.Tab.0.center" timestamp="1611502570715">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1710" height="392" key="GridCell.Tab.0.center/0.0.3440.1400@0.0.3440.1400" timestamp="1611502157311" />
-    <state width="1710" height="392" key="GridCell.Tab.0.left" timestamp="1611502157311">
+    <state width="1710" height="392" key="GridCell.Tab.0.center/0.0.3440.1400@0.0.3440.1400" timestamp="1611502570715" />
+    <state width="1710" height="392" key="GridCell.Tab.0.left" timestamp="1611502570714">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1710" height="392" key="GridCell.Tab.0.left/0.0.3440.1400@0.0.3440.1400" timestamp="1611502157311" />
-    <state width="1710" height="392" key="GridCell.Tab.0.right" timestamp="1611502157312">
+    <state width="1710" height="392" key="GridCell.Tab.0.left/0.0.3440.1400@0.0.3440.1400" timestamp="1611502570714" />
+    <state width="1710" height="392" key="GridCell.Tab.0.right" timestamp="1611502570715">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1710" height="392" key="GridCell.Tab.0.right/0.0.3440.1400@0.0.3440.1400" timestamp="1611502157312" />
+    <state width="1710" height="392" key="GridCell.Tab.0.right/0.0.3440.1400@0.0.3440.1400" timestamp="1611502570715" />
     <state width="1710" height="488" key="GridCell.Tab.1.bottom" timestamp="1611482754308">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
