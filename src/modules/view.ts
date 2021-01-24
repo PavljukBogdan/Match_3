@@ -55,7 +55,10 @@ export default class View {
     //------------------- createSprite ---------------------//
     //створюємо беграунд
     private createBackground(): void {
-        this._background = this.createElementGame('./assets/background.jpg',0,0,720,940,1,'background');
+
+        let path = require('path');
+        let absolutePath = path.resolve('/assets/background.jpg')
+        this._background = this.createElementGame(absolutePath,0,0,720,940,1,'background');
         this._frameBlockSprite = this.createElementGame('./assets/frameBlock.png',100,520,66,66,1,'frameBlock');
     }
     //створюємо завдання рівня
